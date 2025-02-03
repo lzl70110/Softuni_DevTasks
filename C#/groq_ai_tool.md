@@ -39,7 +39,7 @@ using Newtonsoft.Json;
 class Program
 {
     private static readonly HttpClient client = new HttpClient();
-    private const string apiKey = "YOUR_API_KEY_HERE"; // Replace with your actual API key
+    private const string apiKey = "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"; // Replace with your actual API key
     private const string apiUrl = "https://api.groq.com/v1/chat/completions";
 
     static async Task<string> GetAIResponse(string userInput)
